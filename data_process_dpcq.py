@@ -79,7 +79,7 @@ class TXT2Json_processor(NovelProcessor):
 
 
 def main():
-    tps = TXT2Json_processor(path = '斗破苍穹.txt', output_path = ['/Users/gaotianyi/gty/dpcq/test.source', './dpcq/result_template.json', '/Users/gaotianyi/gty/dpcq/source_idx.json'])
+    tps = TXT2Json_processor(path = '斗破苍穹.txt', output_path = ['./dpcq/test.source', './dpcq/result_template.json', './dpcq/source_idx.json'])
 
 if __name__ == "__main__":
     main()
